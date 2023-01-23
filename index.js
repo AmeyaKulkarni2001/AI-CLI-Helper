@@ -12,7 +12,7 @@ const cli = require('./utils/cli');
 const log = require('./utils/log');
 const readline = require('readline');
 const dotenv = require('dotenv');
-dotenv.config();
+dotenv.config({path: '/home/ameya/Coding/ai-helper/.env'});
 const { Configuration, OpenAIApi } = require('openai');
 
 const configuration = new Configuration({
